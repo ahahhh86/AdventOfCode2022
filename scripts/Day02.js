@@ -200,7 +200,7 @@ function solveDay02Part2() {
 				case 6:
 					return MyScore + calculateMyShape(OpponentScore, true);
 				default: // Invalid
-					alert(`Invalid input. WinToScore should not be "${myScore}".`);
+					alert(`Invalid input. WinToScore should not be "${MyScore}".`);
 					break;
 			}
 			
