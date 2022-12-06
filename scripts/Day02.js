@@ -191,7 +191,7 @@ function solveDay02Part2() {
 			const MyScore = charToWin(me);
 			const OpponentScore = charToScore(opponent);
 			
-			switch(myScore) {
+			switch(MyScore) {
 				case 0:
 					return calculateMyShape(OpponentScore, false);
 				case 3:
