@@ -64,7 +64,7 @@ function solveDay01() {
 		let j = 0;
 
 		for (let i in value) {
-			if (value[i] === '') {
+			if (value[i] === "") {
 				++j;
 				result[j] = 0;
 			} else {
@@ -77,7 +77,7 @@ function solveDay01() {
 
 
 
-	const input = document.getElementById('data_input').value.split('\n');
+	const input = document.getElementById('data_input').value.split("\n");
 	let calories = sumCalories(input);
 
 	calories.sort(function(a, b){return b - a});
