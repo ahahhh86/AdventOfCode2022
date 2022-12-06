@@ -77,8 +77,8 @@ function solveDay01() {
 
 
 
-	const input = document.getElementById('data_input').value.split("\n");
-	let calories = sumCalories(input);
+	const Input = document.getElementById('data_input').value.split("\n");
+	let calories = sumCalories(Input);
 
 	calories.sort(function(a, b){return b - a});
 
