@@ -117,8 +117,8 @@ function solveDay02Part1() {
 
 
 
-	const input = document.getElementById("data_input").value.split("\n");
-	document.getElementById("solution_d02_p1").innerHTML = calculateScore(input);
+	const Input = document.getElementById("data_input").value.split("\n");
+	document.getElementById("solution_d02_p1").innerHTML = calculateScore(Input);
 }
 
 
