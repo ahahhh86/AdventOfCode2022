@@ -88,7 +88,7 @@ function solveDay02Part1() {
 			const MyScore = charToScore(me);
 			const OpponentScore = charToScore(opponent);
 
-			if (MyScore === opponentScore) { // Draw
+			if (MyScore === OpponentScore) { // Draw
 				return DrawScore + myScore;
 			}
 
