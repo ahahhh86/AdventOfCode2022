@@ -90,7 +90,7 @@ function solveDay02Part1() {
 			const OpponentScore = charToScore(opponent);
 
 			if (MyScore === OpponentScore) { // Draw
-				return DrawScore + myScore;
+				return DrawScore + MyScore;
 			}
 
 			if (MyScore === 1 && OpponentScore === 3 || // I win
